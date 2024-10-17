@@ -1,24 +1,46 @@
 let quizData = [
     {
-      question: "Gastroprotedine PG",
+      question: "Which among the following is a gastroprotective prostaglandin?",
       options: ["PGE2", "PGI2", "Both", "None"],
       correct: "Both",
     },
     {
-      question: "Prostaglandin receptors belong to",
-      options: ["GPCR", "Ligand gated Ion Channel", "Enzyme linked", "Nuclear R"],
+      question: "Prostglandin receptors belong to which class of receptors?",
+      options: ["GPCR", "Ligand gated Ion Channel", "Enzyme linked Receptors", "Nuclear Receptors"],
       correct: "GPCR",
     },
     {
       question:
-        "Which of the following is a PGE1 analogue used in R of ED",
+        "Which among the following is a PGE1 analogue used in the treatment of erectile dysfunction?",
       options: [
-        "Dinoprostonen",
-        "Cartroprost",
-        "Alprostadel",
-        "Tattuprost",
+        "Dinoprostone",
+        "Carboprost",
+        "Alprostadil",
+        "Tafluprost",
       ],
-      correct: "Alprostadel",
+      correct: "Alprostadil",
+    },
+    {
+      question:
+        "Which of the following prostaglandins is used to manage severe pulmonary arterial hypertension?",
+      options: [
+        "Dinoprostone",
+        "Epoprostenol",
+        "Carboprost",
+        "Alprostadil",
+      ],
+      correct: "Epoprostenol",
+    },
+    {
+      question:
+        "Carboprost, a prostaglandin analog, is primarily used in the management of which condition?",
+      options: [
+        "Erectile dysfunction",
+        "Glaucoma",
+        "Postpartum hemorrhage",
+        "Patent ductus arteriosus",
+      ],
+      correct: "Postpartum hemorrhage",
     },
   ];
   
@@ -32,7 +54,7 @@ let quizData = [
   
   let questionNumber = 0;
   let score = 0;
-  const MAX_QUESTIONS = 3;
+  const MAX_QUESTIONS = 5;
   let timerInterval;
   
   const shuffleArray = (array) => {
