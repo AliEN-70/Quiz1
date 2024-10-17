@@ -6,11 +6,6 @@
     display: none;
   }
   
-  .quiz-container .timer {
-    font-weight: bold;
-    text-align: right;
-  }
-  
   .timer.danger {
     color: red;
   }
