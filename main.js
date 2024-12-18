@@ -1,44 +1,45 @@
 let quizData = [
   {
-    question: "Which among the following is a gastroprotective prostaglandin?",
-    options: ["PGE2", "PGI2", "Both", "None"],
-    correct: "Both",
+    question: "Which prostaglandin analog is used for cervical ripening during labor induction?",
+    options: ["Alprostadil","Misoprostol","Dinoprostone","Carboprost"],
+    correct: "Dinoprostone",
   },
   {
-    question: "Prostaglandin receptors belong to which class of receptors?",
-    options: ["GPCR", "Ligand gated Ion Channel", "Enzyme linked Receptors", "Nuclear Receptors"],
-    correct: "GPCR",
+    question: "Which prostaglandin analog is used for medical termination of pregnancy in combination with mifepristone?",
+    options: ["Latanoprost","Misoprostol","Epoprostenol","Dinoprostone"],
+    correct: "Misoprostol",
   },
   {
     question:
-      "Which among the following is a PGE1 analogue used in the treatment of erectile dysfunction?",
+      "Which prostaglandin analog is commonly used in the treatment of glaucoma to reduce intraocular pressure?",
     options: [
-      "Dinoprostone",
-      "Carboprost",
       "Alprostadil",
-      "Tafluprost",
+      "Latanoprost",
+      "Misoprostol",
+      "Carboprost",
     ],
-    correct: "Alprostadil",
+    correct: "Latanoprost",
   },
   {
     question:
-      "Which of the following prostaglandins is used to manage severe pulmonary arterial hypertension?",
+      "Which prostaglandin analog is used in the treatment of pulmonary arterial hypertension (PAH)?",
     options: [
-      "Dinoprostone",
       "Epoprostenol",
-      "Carboprost",
       "Alprostadil",
+      "Carboprost",
+      "Misoprostol"
     ],
     correct: "Epoprostenol",
   },
   {
     question:
-      "Carboprost, a prostaglandin analog, is primarily used in the management of which condition?",
+      " Carboprost, a prostaglandin F2α analog, is primarily used for which clinical condition?",
     options: [
-      "Erectile dysfunction",
-      "Glaucoma",
+      "Pulmonary hypertension",
       "Postpartum hemorrhage",
-      "Patent ductus arteriosus",
+      "Glaucoma",
+      "Peptic ulcer prevention"
+
     ],
     correct: "Postpartum hemorrhage",
   },
